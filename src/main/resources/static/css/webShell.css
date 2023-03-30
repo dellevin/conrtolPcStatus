@@ -1,0 +1,204 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    background-color: slategray;
+}
+.indexContainer{
+    width: 100%;
+    height: calc(100% - 30px);
+}
+.menu {
+    color: #34495e;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(243, 242, 238, 1) !important;
+}
+.menu div {
+    padding: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.menu div:hover {
+    background-color: #4a77d4;
+}
+.menu div:active {
+    background-color: #3762bc;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    width: 300px;
+}
+.login h1{
+    color: #34495e;
+    text-shadow: 0 0 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.login input{
+    width: 278px;
+    height: 18px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #312E3D;
+    border-bottom: 1px solid #56536A;
+    border-radius: 4px;
+    background-color: #2D2D3F;
+}
+.button{
+    width: 300px;
+    min-height: 20px;
+    display: block;
+    background-color: #58a6ff;
+    border: 1px solid #37b6ff;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 0;
+}
+.sftp-container > div{
+    float: left;
+    border: 2px solid #3762bc;
+}
+.sftp-container{
+    width: 100%;
+    height: 100%;
+}
+.sftp-file-tree-div{
+    width: calc(30% - 8px);
+    height: 80%;
+}
+.sftp-file-tree-div > input{
+    padding: 0 15px;
+    height: 30px;
+    width: calc(100% - 180px);
+    background-color: slategray;
+    color: #fff;
+    border: 1px solid #99D3F5;
+    outline: none;
+    border-radius: 5px;
+}
+.sftp-file-tree-div .sftp-file-tree{
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+}
+.sftp-file-detail{
+    width: 70%;
+    height: 80%;
+    overflow-y: scroll;
+}
+.sftp-message-console {
+    width: calc(100% - 4px);
+    height: calc(20% - 8px);
+    color: whitesmoke;
+    font-size: 20px;
+}
+input::-webkit-input-placeholder{
+    color: whitesmoke;
+}
+/* Mozilla Firefox 19+ */
+input::-moz-placeholder{
+    color: whitesmoke;
+}
+
+.file-detail-table {
+    width: 100%;
+}
+.file-detail-table tr{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+}
+table.file-detail-table {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+table.file-detail-table th {
+    background-color: #3F3F3F;
+    color: white;
+}
+table.file-detail-table th:first-child, table.file-detail-table td:first-child {
+    padding-left: 10px;
+}
+table.file-detail-table th, table.file-detail-table td {
+    border-bottom: 1px solid #a9c6c9;
+    padding: 6px 0;
+    text-align: left;
+}
+table.file-detail-table tr:nth-child(even) { background-color:#c3dde0; }
+table.file-detail-table tr:nth-child(odd) { background-color:#d4e3e5; }
+table.file-detail-table tr:hover{
+    background-color: #dcddc0;
+}
+.data-cell .file-name {
+    cursor: pointer;
+}
+.sftp-file-tree-div form {
+    padding-left: 10px;
+    width: 130px;
+    display: inline-block;
+}
+.select-file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #1E88C7;
+    text-decoration: none;
+    line-height: 20px;
+}
+.select-file input {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.select-file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+.delete-data {
+    background-color: #EA633E;
+    cursor: pointer;
+    color: white;
+    border: 0;
+}
+.github-star a {
+    padding: 10px 10px 0;
+}
+.github-star {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
